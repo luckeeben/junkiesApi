@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F355D205-8E36-4582-8D57-8038C192BEE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7987091-4D87-49F0-A539-B0C5F7AECF08}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "junkiesApi", "src\junkiesApi\junkiesApi.xproj", "{9AD1AFFA-622A-40A4-A005-8956AC248B71}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "junkiesWeb", "..\junkiesWeb\junkiesWeb\junkiesWeb.xproj", "{F3AB4E5D-3D96-49E4-B559-BFE66A77FE71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AD1AFFA-622A-40A4-A005-8956AC248B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD1AFFA-622A-40A4-A005-8956AC248B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD1AFFA-622A-40A4-A005-8956AC248B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD1AFFA-622A-40A4-A005-8956AC248B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AB4E5D-3D96-49E4-B559-BFE66A77FE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AB4E5D-3D96-49E4-B559-BFE66A77FE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AB4E5D-3D96-49E4-B559-BFE66A77FE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AB4E5D-3D96-49E4-B559-BFE66A77FE71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AD1AFFA-622A-40A4-A005-8956AC248B71} = {F355D205-8E36-4582-8D57-8038C192BEE7}
+		{F3AB4E5D-3D96-49E4-B559-BFE66A77FE71} = {F355D205-8E36-4582-8D57-8038C192BEE7}
+	EndGlobalSection
+EndGlobal
